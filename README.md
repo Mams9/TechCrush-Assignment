@@ -1,24 +1,3 @@
-# Node.js & Docker Deployment Assignment
-
-A simple Node.js (Express) application containerized with Docker and pushed to Docker Hub.
-
-## App Overview
-- `GET /` – simple HTML landing page
-- `GET /api/status` – JSON health check (hostname, uptime, timestamp)
-- `GET /api/hello?name=YourName` – JSON greeting
-
-## Tech Stack
-- Node.js 18 + Express
-- Docker
-- Docker Hub
-
-## Project Structure
-```
-.
-├── app.js
-├── package.json
-├── package-lock.json
-├── Dockerfile
 ## Screenshots
 
 ### 1. Docker Build Command
